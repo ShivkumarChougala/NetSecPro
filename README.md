@@ -35,8 +35,9 @@ cd NetSecPro
 source venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
+```
 
-
+---
 ## Usage
 - Run main.py.
 - Select a module from the menu.
