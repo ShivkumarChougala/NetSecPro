@@ -1,0 +1,16 @@
+import os
+
+# ------------------ Retro Colors & Styles ------------------
+class Colors:
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    CYAN = '\033[96m'
+    MAGENTA = '\033[95m'
+    BOLD = '\033[1m'
+    RESET = '\033[0m'
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+

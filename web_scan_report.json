@@ -1,0 +1,278 @@
+[
+    {
+        "url": "http://testphp.vulnweb.com/cart.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/disclaimer.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/userinfo.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "userinfo.php",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/hpp/",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/artists.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/login.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "userinfo.php",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/privacy.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/guestbook.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            },
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/Mod_Rewrite_Shop/",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/categories.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/index.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [
+            {
+                "action": "search.php?test=query",
+                "method": "post",
+                "has_file_upload": false,
+                "xss": true
+            }
+        ],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    },
+    {
+        "url": "http://testphp.vulnweb.com/AJAX/index.php",
+        "headers": {
+            "X-Frame-Options": null,
+            "X-Content-Type-Options": null,
+            "Strict-Transport-Security": null,
+            "Content-Security-Policy": null,
+            "Server": "nginx/1.19.0"
+        },
+        "forms": [],
+        "ssl": {
+            "https": false,
+            "valid_cert": false
+        }
+    }
+]
