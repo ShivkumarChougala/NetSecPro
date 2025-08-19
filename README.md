@@ -37,12 +37,11 @@ pip install -r requirements.txt
 python3 main.py
 
 
-##Usage
-Run main.py.
-Select a module from the menu.
-Follow on-screen instructions:
-Network Scanner: choose interface → scan → view ports → check vulnerabilities.
-LAN Chat: start server → connect clients → chat.
-Web Scanner: enter website URL → scan headers/forms → view potential vulnerabilities.
-
-WiFi Pentest: select WiFi interface → enable monitor mode → scan networks → optional deauth attack → save report.
+## Usage
+- Run main.py.
+- Select a module from the menu.
+- Follow on-screen instructions:
+- Network Scanner: choose interface → scan → view ports → check vulnerabilities.
+- LAN Chat: start server → connect clients → chat.
+- Web Scanner: enter website URL → scan headers/forms → view potential vulnerabilities.
+- WiFi Pentest: select WiFi interface → enable monitor mode → scan networks → optional deauth attack → save report.
